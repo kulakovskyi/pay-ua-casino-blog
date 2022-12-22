@@ -1,82 +1,80 @@
-aside.casino
-    .casino__container
-        h2.casino__title Nyeste nettcasinoer
-        p.casino__text De beste nye kasinoene som er lagt til listen vår, inkludert detaljerte casinoomtaler og rangeringer, bonuser, kampanjer.
-        .casino__list-wrapper
-            ul.casino__list
-                li.casino__item
-                    .casino__item-image
-                        img(src='img/top-casino/casino-image.png' alt='image')
-                    .casino__item-title BaoCasino
-                    .casino__item-reviews
-                        .casino__item-reviews-top
-                            img(src='img/top-casino/icon1.svg' alt='icon')
-                            img(src='img/top-casino/icon2.svg' alt='icon')
-                        .casino__item-reviews-rating
-                            img(src='img/top-casino/star.svg' alt='icon')
-                            p 9.25 / 10
-                    a(href='#').casino__item-link Play Now
-                    .casino__item-info
-                        .casino__item-info-up 100% Up ₹90,000
-                        .casino__item-info-text Biggest Bonus Ever Registration
-                    .casino__item-buttons
-                        a(href='#').casino__item-button.casino__item-button-orange Leke nå
-                        a(href='#').casino__item-button.casino__item-button-transp Get bonus
-                li.casino__item
-                    .casino__item-image
-                        img(src='img/top-casino/casino-image.png' alt='image')
-                    .casino__item-title BaoCasino
-                    .casino__item-reviews
-                        .casino__item-reviews-top
-                            img(src='img/top-casino/icon1.svg' alt='icon')
-                            img(src='img/top-casino/icon2.svg' alt='icon')
-                        .casino__item-reviews-rating
-                            img(src='img/top-casino/star.svg' alt='icon')
-                            p 9.25 / 10
-                    a(href='#').casino__item-link Play Now
-                    .casino__item-info
-                        .casino__item-info-up 100% Up ₹90,000
-                        .casino__item-info-text Biggest Bonus Ever Registration
-                    .casino__item-buttons
-                        a(href='#').casino__item-button.casino__item-button-orange Leke nå
-                        a(href='#').casino__item-button.casino__item-button-transp Get bonus
-                li.casino__item
-                    .casino__item-image
-                        img(src='img/top-casino/casino-image.png' alt='image')
-                    .casino__item-title BaoCasino
-                    .casino__item-reviews
-                        .casino__item-reviews-top
-                            img(src='img/top-casino/icon1.svg' alt='icon')
-                            img(src='img/top-casino/icon2.svg' alt='icon')
-                        .casino__item-reviews-rating
-                            img(src='img/top-casino/star.svg' alt='icon')
-                            p 9.25 / 10
-                    a(href='#').casino__item-link Play Now
-                    .casino__item-info
-                        .casino__item-info-up 100% Up ₹90,000
-                        .casino__item-info-text Biggest Bonus Ever Registration
-                    .casino__item-buttons
-                        a(href='#').casino__item-button.casino__item-button-orange Leke nå
-                        a(href='#').casino__item-button.casino__item-button-transp Get bonus
-                li.casino__item
-                    .casino__item-image
-                        img(src='img/top-casino/casino-image.png' alt='image')
-                    .casino__item-title BaoCasino
-                    .casino__item-reviews
-                        .casino__item-reviews-top
-                            img(src='img/top-casino/icon1.svg' alt='icon')
-                            img(src='img/top-casino/icon2.svg' alt='icon')
-                        .casino__item-reviews-rating
-                            img(src='img/top-casino/star.svg' alt='icon')
-                            p 9.25 / 10
-                    a(href='#').casino__item-link Play Now
-                    .casino__item-info
-                        .casino__item-info-up 100% Up ₹90,000
-                        .casino__item-info-text Biggest Bonus Ever Registration
-                    .casino__item-buttons
-                        a(href='#').casino__item-button.casino__item-button-orange Leke nå
-                        a(href='#').casino__item-button.casino__item-button-transp Get bonus
-        button.casino__link Show More #[span (14)]
+aside.aside
+    .blog
+        .blog__container
+            .blog__wrapper
+                h2.blog__title Expert Verdict
+                .blog__row
+                    .blog__user
+                        .blog__user-image
+                            img(src='img/top-casino/user-image.png' alt='image')
+                        .blog__user-info
+                            .blog__user-name Павел
+                            time(datetime="2001-04-9 19:00").blog__user-date 8 апреля 2021
+                    .blog__casino
+                        .blog__casino-rating
+                            img(src='img/top-casino/star.svg' alt='star')
+                            .blog__casino-rating-text 4 из 5
+                        .blog__casino-img
+                            img(src='img/top-casino/parimatch.png' alt='image')
+                            .blog__casino-img-text Parimarch
+                p.blog__text.
+                    Вау! Лучшего покер-рума в жизни не видел!
+                    Из всех протестированных мною сайтов здесь самые крутые акции и бонувсы для игры в покер!
+                    Да на них с нуля можно годные суммы набрать! Практически без проблем отыграл.
+                    Ни разу ничего не зависло, из игры не выбивало, грузит на раз-два.
+                    <span id="dots" class='blog__text-dots'>Смотреть больше... </span><span id="more" class='blog__text-more hidden'>Вау! Лучшего покер-рума в жизни не видел!
+                     Из всех протестированных мною сайтов здесь самые крутые акции и бонувсы для игры в покер!
+                     Да на них с нуля можно годные суммы набрать! Практически без проблем отыграл.
+                     Ни разу ничего не зависло, из игры не выбивало, грузит на раз-два. </span>
+                ul.blog__rating
+                    li.blog__item
+                        .blog__item-progress
+                            .single-chart
+                                svg.circular-chart(viewbox='0 0 36 36')
+                                    path.circle-bg(d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831')
+                                    path.circle.green(stroke-dasharray='10, 100' d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831')
+                            .blog__item-text.green
+                        .blog__item-info Рейтинг редакции
+
+                    li.blog__item
+                        .blog__item-progress
+                            .single-chart
+                                svg.circular-chart(viewbox='0 0 36 36')
+                                    path.circle-bg(d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831')
+                                    path.circle.red(stroke-dasharray='10, 100' d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831')
+                            .blog__item-text.red
+                        .blog__item-info Рейтинг игроков
+                    li.blog__item
+                        .blog__item-progress
+                            .single-chart
+                                svg.circular-chart(viewbox='0 0 36 36')
+                                    path.circle-bg(d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831')
+                                    path.circle.yellow(stroke-dasharray='10, 100' d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831')
+                            .blog__item-text.yellow
+                        .blog__item-info Надёжность
+                    li.blog__item
+                        .blog__item-progress
+                            .single-chart
+                                svg.circular-chart(viewbox='0 0 36 36')
+                                    path.circle-bg(d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831')
+                                    path.circle.green(stroke-dasharray='10, 100' d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831')
+                            .blog__item-text.green
+                        .blog__item-info Скорость вывода
+                    li.blog__item
+                        .blog__item-progress
+                            .single-chart
+                                svg.circular-chart(viewbox='0 0 36 36')
+                                    path.circle-bg(d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831')
+                                    path.circle.green(stroke-dasharray='10, 100' d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831')
+                            .blog__item-text.green
+                        .blog__item-info Служба поддержки
+                blockquote.blog__blockquote
+                    p.blog__blockquote-text.
+                        Дать объективную оценку игорных сайтов сложно:
+                        важно учесть особенности, на которые можно обратить внимание только
+                         с опытом и знаниями. Мы детально остановимся на каждом пункте, который рассматривали,
+                         составляя этот топ.
+
 
 
 
